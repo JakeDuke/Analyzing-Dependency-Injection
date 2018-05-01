@@ -1,39 +1,47 @@
-# Analyzing Modular Applications
+# Dom-Console-Node
 
-In this project I read and analyzed several applications.  They each had a slightly different structure but all of them were built from small, reusable pieces of code.  
+This code is a simply organized, basic application.  Though it is made of modular components there is only one application built from this code.
 
-I learned how to read applications like the runtime environment by finding the entry point and back-tracking through "require" statements to build up a complete specification of the application at run-time.
-
-Using this technique I was able to understand how "Dependency Injection" (or _developing to an interface_) is a great way to make maintainable, flexible applications that can be modified for different run-time environments or UI's.
+### Index
+* [Apps](#apps)
+* [Install Instructions](#install-instructions)
+* [File Structure](#file-structure)
+* [Home](https://github.com/elewa-student/Analyzing-Architecture/tree/master)
 
 ---
 
-## Projects I Analyzed
+## Apps
 
-* [dom-console-node](https://github.com/elewa-academy/Modular-Design/tree/master/03-dependency-injection/1-app-components-architecture/1-dom-console-node)
-* [mix-match-operation](https://github.com/elewa-academy/Modular-Design/tree/master/03-dependency-injection/1-app-components-architecture/2-mix-match-operations)
+This folder only contains three apps.  It's a basic browser app with an HTML file that requires some JS and runs them when the Window loads:
+* [Dom-Console-Node](./MVC_list.md)
+
 ---
 
-## Notes
+## Install Instructions
 
+Clone the code to your computer.  That's all.  No installing or building necessary.
 
-Things I learned:
-* How to infer the runtime application from sourcecode
-* Navigating repositories
-* Thinking of applications as pieces of functionality instead of code
-* More about sourcecode vs runtime
-* Using diagrams to understand the architecture of applications
+[TOP](#index)
 
-New Vocabulary:
-* Dependency Injection
-* Developing to an Interface
+---
 
-Things I struggled with:
-* Holding the runtime application in my working memory
-* Navigating file structures: on GitHub, terminal, and text editor
-* Diagramming Build-time behavior
-* Mapping build-time diagrams into run-time specs
+## File Structure
 
-Next study plans:
-* Read & diagram more code!
-* Diagram my projects before I build them
+Nothing remarkable here, just a single folder with all of the files at the top level. 
+
+index.html_ is the entry point.  App.js requires all of the other files and builds them together when the Window Object is done loading.
+
+```
+Basic_Browser_App
+|
++-- index.html
+|	* Entry point to the application
+|
++-- README.md
++-- app.js
+
+```
+
+[TOP](#index)
+
+___
