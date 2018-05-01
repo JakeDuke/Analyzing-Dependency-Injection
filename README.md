@@ -1,4 +1,4 @@
-# Dom-Console-Node
+# Mix-Match-Operations
 
 This code is a simply organized, basic application.  Though it is made of modular components there is only one application built from this code.
 
@@ -6,14 +6,15 @@ This code is a simply organized, basic application.  Though it is made of modula
 * [Apps](#apps)
 * [Install Instructions](#install-instructions)
 * [File Structure](#file-structure)
+* [Build-Time Diagram](#build-time-diagram)
 * [Home](https://github.com/elewa-student/Analyzing-Architecture/tree/master)
 
 ---
 
 ## Apps
 
-This folder only contains three apps.  It's a basic browser app with an HTML file that requires some JS and runs them when the Window loads:
-* [Dom-Console-Node](./MVC_list.md)
+This folder only contains one app.  It's a basic browser app with an HTML file that requires some JS and runs them when the Window loads:
+* [MVC_list](./MVC_list.md)
 
 ---
 
@@ -29,16 +30,19 @@ Clone the code to your computer.  That's all.  No installing or building necessa
 
 Nothing remarkable here, just a single folder with all of the files at the top level. 
 
-index.html_ is the entry point.  App.js requires all of the other files and builds them together when the Window Object is done loading.
+_App.html_ is the entry point.  It requires all of the other files and builds them together when the Window Object is done loading.
 
 ```
-Basic_Browser_App
+MVC_list
 |
-+-- index.html
++-- app.html
 |	* Entry point to the application
 |
++-- controller.js
++-- handler.js
++-- model.js
 +-- README.md
-+-- app.js
++-- view.js
 
 ```
 
