@@ -10,8 +10,8 @@ Using this technique I was able to understand how "Dependency Injection" (or _de
 
 ## Projects I Analyzed
 
-[dom-console-node](https://github.com/elewa-academy/Modular-Design/tree/master/03-dependency-injection/1-app-components-architecture/1-dom-console-node)
-[mix-match-operation](https://github.com/elewa-academy/Modular-Design/tree/master/03-dependency-injection/1-app-components-architecture/2-mix-match-operations)
+* [dom-console-node](https://github.com/elewa-academy/Modular-Design/tree/master/03-dependency-injection/1-app-components-architecture/1-dom-console-node)
+* [mix-match-operation](https://github.com/elewa-academy/Modular-Design/tree/master/03-dependency-injection/1-app-components-architecture/2-mix-match-operations)
 ---
 
 ## Notes
